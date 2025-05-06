@@ -8,3 +8,6 @@ Algunas características de frontend son:
 - CRUD en los artículos
 - Categorías y subcategorías
 - Implementación de mejoras en la navegavilidad y experiencia de usuario empleando por ejemplo migas de pan
+
+## Video general
+https://github.com/user-attachments/assets/01c132f5-b9be-4290-9b89-12ae69c3ffc5
