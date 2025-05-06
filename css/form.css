@@ -1,0 +1,25 @@
+.bodyy .formulario {
+  padding-top: 10px;
+  margin: 0 auto;
+  grid-column: 2/4;
+  width: 80%;
+  border-radius: 40px;
+  padding: 60px;
+}
+
+.formulario input {
+  text-align: center;
+}
+.formulario select {
+  font-size: 18px;
+}
+
+.controls {
+  width: 95%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+option {
+  font-size: 18px;
+}/*# sourceMappingURL=form.css.map */

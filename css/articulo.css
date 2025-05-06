@@ -1,0 +1,33 @@
+.bodyy .containerProducto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10%;
+}
+
+.bodyy .comprar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}/*# sourceMappingURL=articulo.css.map */
+
+.nav-link{
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover
+{
+  transform: scale(0.9);
+}
+
+img{
+  transition: all 0.5s ease;
+  margin-bottom: 12px;
+}
+
+img:hover{
+transform: scale(1.2);
+}

@@ -1,0 +1,21 @@
+.bodyy .containerProducto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10%;
+    
+} 
+
+
+
+.bodyy .comprar
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+
+}

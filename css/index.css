@@ -1,0 +1,96 @@
+body {
+  margin: 0 auto;
+}
+.contenido {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  background-color: beige;
+  margin-top: -17px;
+}
+body .nombre {
+  text-align: center;
+  background-color: beige;
+  color: gray;
+
+}
+body ul {
+  list-style: none;
+}
+
+img{
+    transition: all 0.5s ease;
+    margin-bottom: 12px;
+}
+
+img:hover{
+  transform: scale(1.2);
+}
+
+.nav-link{
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover
+{
+  transform: scale(0.9);
+}
+
+.contenido .productos {
+  grid-column: 1/5;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+
+}
+.contenido .productos h3 {
+  color: gray;
+}
+
+p {
+  color: gray;
+}
+
+.text-center{
+  color: gray;
+}
+
+section{
+  background-color: rgb(206, 75, 63);
+}
+
+section .noticiero {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+section .noticias {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: space-around;
+}
+section h2 .card {
+  margin-top: 30px;
+  display: flex;
+}
+
+.noticias {
+  grid-column: 1/3;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.sr-only {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+

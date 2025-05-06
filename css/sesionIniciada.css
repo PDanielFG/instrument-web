@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*SESIONINICIADA*/
+/*Los estilos que no se modifiquen se cogerán del index.css, aquí estarán los estilos que se modifique al iniciar sesion*/
+.esquinaDerecha {
+  grid-column: 7/8;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.bodyy .navbarSesion {
+  background-color: #221F26;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(5, 100px);
+  align-items: center;
+  background-image: url(../imagenes/guitarra.gif);
+  background-size: cover;
+}
+.bodyy .texto {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  text-align: center;
+  color: rgb(206, 75, 63);
+}/*# sourceMappingURL=sesionIniciada.css.map */
+
+img{
+  transition: all 0.5s ease;
+  margin-bottom: 12px;
+}
+
+img:hover{
+transform: scale(1.2);
+}
+
+.nav-link{
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover
+{
+  transform: scale(0.9);
+}
